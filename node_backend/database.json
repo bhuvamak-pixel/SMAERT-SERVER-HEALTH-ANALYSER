@@ -1,0 +1,955 @@
+[
+  {
+    "username": "khushi",
+    "cpu_usage": 26,
+    "ram_usage": 32,
+    "disk_usage": 61,
+    "temperature": 59,
+    "network_latency": 350,
+    "active_connections": 30000,
+    "api_response_time": 800,
+    "error_rate": 2,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 64,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [],
+    "suggestions": [],
+    "timestamp": "2026-08-09T05:48:22.009Z"
+  },
+  {
+    "username": "divu",
+    "cpu_usage": 20,
+    "ram_usage": 28,
+    "disk_usage": 40,
+    "temperature": 70,
+    "network_latency": 432,
+    "active_connections": 5000,
+    "api_response_time": 700,
+    "error_rate": 2.5,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 72,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [],
+    "suggestions": [],
+    "timestamp": "2026-08-09T05:41:58.454Z"
+  },
+  {
+    "username": "divyesh",
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "disk_usage": 80,
+    "temperature": 78,
+    "network_latency": 350,
+    "active_connections": 30000,
+    "api_response_time": 800,
+    "error_rate": 2,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 60,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [
+      "CPU Usage = 82.0% (High)",
+      "RAM Usage = 85.0% (High)"
+    ],
+    "suggestions": [
+      "Kill idle or zombie processes",
+      "Restart background services to clear load"
+    ],
+    "timestamp": "2026-08-03T16:19:22.696Z"
+  },
+  {
+    "username": "divu",
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "disk_usage": 80,
+    "temperature": 78,
+    "network_latency": 350,
+    "active_connections": 30000,
+    "api_response_time": 800,
+    "error_rate": 2,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 60,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [
+      "CPU Usage = 82.0% (High)",
+      "RAM Usage = 85.0% (High)"
+    ],
+    "suggestions": [
+      "Kill idle or zombie processes",
+      "Restart background services to clear load"
+    ],
+    "timestamp": "2026-08-03T16:10:16.556Z"
+  },
+  {
+    "username": "divu",
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "disk_usage": 80,
+    "temperature": 78,
+    "network_latency": 350,
+    "active_connections": 30000,
+    "api_response_time": 800,
+    "error_rate": 2,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 60,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [
+      "CPU Usage = 82.0% (High)",
+      "RAM Usage = 85.0% (High)"
+    ],
+    "suggestions": [
+      "Kill idle or zombie processes",
+      "Restart background services to clear load"
+    ],
+    "timestamp": "2026-08-03T15:41:11.967Z"
+  },
+  {
+    "username": ",m",
+    "cpu_usage": 95,
+    "ram_usage": 98,
+    "disk_usage": 96,
+    "temperature": 95,
+    "network_latency": 900,
+    "active_connections": 48000,
+    "api_response_time": 2500,
+    "error_rate": 12,
+    "status": "Critical - High Crash Risk",
+    "health_score": 0,
+    "time_to_crash": "Imminent crash likely in <10 mins",
+    "reasons": [
+      "CPU Usage = 95.0% (Critical)",
+      "RAM Usage = 98.0% (Critical)",
+      "Disk Usage = 96.0% (Critical)",
+      "Temperature = 95.0°C (Danger)",
+      "Active Connections = 48000.0 (Overload)",
+      "Network Latency = 900.0ms (Very Slow)",
+      "API Response = 2500.0ms (Slow Response)",
+      "Error Rate = 12.0% (High Error Rate)"
+    ],
+    "suggestions": [
+      "Review recent code changes (Consider Rollback)",
+      "Implement or upgrade Load Balancer",
+      "Delete old logs and temp files",
+      "Check network routing and ISP health",
+      "Scale up server instances (Add more CPU cores)",
+      "Optimize database queries or add indexing",
+      "Check server cooling system and thermal throttling",
+      "Clear cache and free up memory"
+    ],
+    "timestamp": "2026-08-03T12:17:37.966Z"
+  },
+  {
+    "username": ",m",
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "disk_usage": 80,
+    "temperature": 78,
+    "network_latency": 350,
+    "active_connections": 30000,
+    "api_response_time": 800,
+    "error_rate": 2,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 60,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [
+      "CPU Usage = 82.0% (High)",
+      "RAM Usage = 85.0% (High)"
+    ],
+    "suggestions": [
+      "Kill idle or zombie processes",
+      "Restart background services to clear load"
+    ],
+    "timestamp": "2026-08-03T12:17:07.141Z"
+  },
+  {
+    "username": "divu",
+    "cpu_usage": 23,
+    "ram_usage": 22,
+    "disk_usage": 34,
+    "temperature": 47,
+    "network_latency": 990,
+    "active_connections": 100000,
+    "api_response_time": 2950,
+    "error_rate": 20,
+    "status": "Critical - High Crash Risk",
+    "health_score": 19,
+    "time_to_crash": "Imminent crash likely in <10 mins",
+    "reasons": [
+      "Active Connections = 100000.0 (Overload)",
+      "Network Latency = 990.0ms (Very Slow)",
+      "API Response = 2950.0ms (Slow Response)",
+      "Error Rate = 20.0% (High Error Rate)"
+    ],
+    "suggestions": [
+      "Check network routing and ISP health",
+      "Optimize database queries or add indexing",
+      "Review recent code changes (Consider Rollback)",
+      "Implement or upgrade Load Balancer"
+    ],
+    "timestamp": "2026-08-03T12:09:47.350Z"
+  },
+  {
+    "username": "mek",
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "disk_usage": 80,
+    "temperature": 78,
+    "network_latency": 350,
+    "active_connections": 30000,
+    "api_response_time": 800,
+    "error_rate": 2,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 60,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [
+      "CPU Usage = 82.0% (High)",
+      "RAM Usage = 85.0% (High)"
+    ],
+    "suggestions": [
+      "Kill idle or zombie processes",
+      "Restart background services to clear load"
+    ],
+    "timestamp": "2026-07-26T13:21:10.314Z"
+  },
+  {
+    "username": "mek",
+    "cpu_usage": 45,
+    "ram_usage": 93,
+    "disk_usage": 72,
+    "temperature": 102,
+    "network_latency": 604,
+    "active_connections": 28500,
+    "api_response_time": 1500,
+    "error_rate": 8,
+    "status": "Critical - High Crash Risk",
+    "health_score": 10,
+    "time_to_crash": "Imminent crash likely in <10 mins",
+    "reasons": [
+      "RAM Usage = 93.0% (Critical)",
+      "Temperature = 102.0°C (Danger)",
+      "Network Latency = 604.0ms (Very Slow)",
+      "API Response = 1500.0ms (Slow Response)",
+      "Error Rate = 8.0% (High Error Rate)"
+    ],
+    "suggestions": [
+      "Optimize database queries or add indexing",
+      "Review recent code changes (Consider Rollback)",
+      "Check network routing and ISP health",
+      "Check server cooling system and thermal throttling",
+      "Clear cache and free up memory"
+    ],
+    "timestamp": "2026-07-26T13:19:40.496Z"
+  },
+  {
+    "username": "mek",
+    "cpu_usage": 30,
+    "ram_usage": 32,
+    "disk_usage": 31,
+    "temperature": 60,
+    "network_latency": 205,
+    "active_connections": 15500,
+    "api_response_time": 800,
+    "error_rate": 6,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 72,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [
+      "Error Rate = 6.0% (High Error Rate)"
+    ],
+    "suggestions": [
+      "Review recent code changes (Consider Rollback)"
+    ],
+    "timestamp": "2026-07-26T13:17:57.180Z"
+  },
+  {
+    "username": "mek",
+    "cpu_usage": 30,
+    "ram_usage": 32,
+    "disk_usage": 31,
+    "temperature": 60,
+    "network_latency": 205,
+    "active_connections": 15500,
+    "api_response_time": 800,
+    "error_rate": 6,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 72,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [
+      "Error Rate = 6.0% (High Error Rate)"
+    ],
+    "suggestions": [
+      "Review recent code changes (Consider Rollback)"
+    ],
+    "timestamp": "2026-07-26T13:15:47.477Z"
+  },
+  {
+    "username": "divu",
+    "cpu_usage": 56,
+    "ram_usage": 65,
+    "disk_usage": 40,
+    "temperature": 52,
+    "network_latency": 153,
+    "active_connections": 9500,
+    "api_response_time": 1350,
+    "error_rate": 1.5,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 66,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [
+      "API Response = 1350.0ms (Slow Response)"
+    ],
+    "suggestions": [
+      "Optimize database queries or add indexing"
+    ],
+    "timestamp": "2026-07-26T13:12:58.326Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "disk_usage": 80,
+    "temperature": 78,
+    "network_latency": 350,
+    "active_connections": 30000,
+    "api_response_time": 800,
+    "error_rate": 2,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 60,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [
+      "CPU Usage = 82.0% (High)",
+      "RAM Usage = 85.0% (High)"
+    ],
+    "suggestions": [
+      "Restart background services to clear load",
+      "Kill idle or zombie processes"
+    ],
+    "timestamp": "2026-07-22T16:58:02.230Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "disk_usage": 80,
+    "temperature": 78,
+    "network_latency": 350,
+    "active_connections": 30000,
+    "api_response_time": 800,
+    "error_rate": 2,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 60,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [
+      "CPU Usage = 82.0% (High)",
+      "RAM Usage = 85.0% (High)"
+    ],
+    "suggestions": [
+      "Restart background services to clear load",
+      "Kill idle or zombie processes"
+    ],
+    "timestamp": "2026-07-22T14:34:28.361Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "disk_usage": 80,
+    "temperature": 78,
+    "network_latency": 350,
+    "active_connections": 30000,
+    "api_response_time": 800,
+    "error_rate": 2,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 60,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [
+      "CPU Usage = 82.0% (High)",
+      "RAM Usage = 85.0% (High)"
+    ],
+    "suggestions": [
+      "Restart background services to clear load",
+      "Kill idle or zombie processes"
+    ],
+    "timestamp": "2026-07-22T14:28:29.052Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 8,
+    "ram_usage": -1,
+    "disk_usage": 5,
+    "temperature": 3,
+    "network_latency": 24,
+    "active_connections": 497,
+    "api_response_time": 104,
+    "error_rate": 9,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 79,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [
+      "Error Rate = 9.0% (High Error Rate)"
+    ],
+    "suggestions": [
+      "Review recent code changes (Consider Rollback)"
+    ],
+    "timestamp": "2026-07-22T14:23:37.614Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 68,
+    "ram_usage": 38,
+    "disk_usage": 53,
+    "temperature": 54,
+    "network_latency": 309,
+    "active_connections": 5000,
+    "api_response_time": 1050,
+    "error_rate": 0,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 67,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [
+      "API Response = 1050.0ms (Slow Response)"
+    ],
+    "suggestions": [
+      "Optimize database queries or add indexing"
+    ],
+    "timestamp": "2026-07-22T14:21:39.474Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 45,
+    "ram_usage": 50,
+    "disk_usage": 40,
+    "temperature": 60,
+    "network_latency": 1000,
+    "active_connections": 5000,
+    "api_response_time": 150,
+    "error_rate": 0,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 67,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [
+      "Network Latency = 1000.0ms (Very Slow)"
+    ],
+    "suggestions": [
+      "Check network routing and ISP health"
+    ],
+    "timestamp": "2026-07-22T14:20:41.546Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 45,
+    "ram_usage": 55,
+    "disk_usage": 40,
+    "temperature": 60,
+    "network_latency": 50,
+    "active_connections": 5000,
+    "api_response_time": 150,
+    "error_rate": 0,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 78,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [],
+    "suggestions": [],
+    "timestamp": "2026-07-22T13:39:44.958Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "disk_usage": 80,
+    "temperature": 78,
+    "network_latency": 350,
+    "active_connections": 30000,
+    "api_response_time": 800,
+    "error_rate": 2,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 60,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [
+      "CPU Usage = 82.0% (High)",
+      "RAM Usage = 85.0% (High)"
+    ],
+    "suggestions": [
+      "Restart background services to clear load",
+      "Kill idle or zombie processes"
+    ],
+    "timestamp": "2026-07-22T13:34:57.339Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 45,
+    "ram_usage": 55,
+    "disk_usage": 40,
+    "temperature": 60,
+    "network_latency": 50,
+    "active_connections": 5000,
+    "api_response_time": 150,
+    "error_rate": 0,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 78,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [],
+    "suggestions": [],
+    "timestamp": "2026-07-18T17:58:41.524Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "disk_usage": 80,
+    "temperature": 78,
+    "network_latency": 350,
+    "active_connections": 30000,
+    "api_response_time": 800,
+    "error_rate": 2,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 60,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [
+      "CPU Usage = 82.0% (High)",
+      "RAM Usage = 85.0% (High)"
+    ],
+    "suggestions": [
+      "Restart background services to clear load",
+      "Kill idle or zombie processes"
+    ],
+    "timestamp": "2026-07-18T17:55:38.426Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 45,
+    "ram_usage": 43,
+    "disk_usage": 40,
+    "temperature": 60,
+    "network_latency": 50,
+    "active_connections": 5000,
+    "api_response_time": 150,
+    "error_rate": 0,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 79,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [],
+    "suggestions": [],
+    "timestamp": "2026-07-18T17:54:15.192Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 45,
+    "ram_usage": 50,
+    "disk_usage": 40,
+    "temperature": 60,
+    "network_latency": 50,
+    "active_connections": 5000,
+    "api_response_time": 150,
+    "error_rate": 0,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 79,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [],
+    "suggestions": [],
+    "timestamp": "2026-07-18T17:51:33.247Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 45,
+    "ram_usage": 55,
+    "disk_usage": 30,
+    "temperature": 52,
+    "network_latency": 27,
+    "active_connections": 1000,
+    "api_response_time": 150,
+    "error_rate": 0,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 79,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [],
+    "suggestions": [],
+    "timestamp": "2026-07-18T17:41:04.649Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 45,
+    "ram_usage": 55,
+    "disk_usage": 40,
+    "temperature": 60,
+    "network_latency": 50,
+    "active_connections": 5000,
+    "api_response_time": 150,
+    "error_rate": 0,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 78,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [],
+    "suggestions": [],
+    "timestamp": "2026-07-18T17:35:16.829Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "disk_usage": 80,
+    "temperature": 78,
+    "network_latency": 350,
+    "active_connections": 30000,
+    "api_response_time": 800,
+    "error_rate": 2,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 60,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [
+      "CPU Usage = 82.0% (High)",
+      "RAM Usage = 85.0% (High)"
+    ],
+    "suggestions": [
+      "Restart background services to clear load",
+      "Kill idle or zombie processes"
+    ],
+    "timestamp": "2026-07-18T17:31:21.354Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 45,
+    "ram_usage": 50,
+    "disk_usage": 40,
+    "temperature": 60,
+    "network_latency": 50,
+    "active_connections": 5000,
+    "api_response_time": 150,
+    "error_rate": 0,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 79,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [],
+    "suggestions": [],
+    "timestamp": "2026-07-18T17:30:55.618Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 45,
+    "ram_usage": 50,
+    "disk_usage": 40,
+    "temperature": 60,
+    "network_latency": 50,
+    "active_connections": 5000,
+    "api_response_time": 150,
+    "error_rate": 0,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 79,
+    "time_to_crash": "Risk of instability in ~30 mins",
+    "reasons": [],
+    "suggestions": [],
+    "timestamp": "2026-07-18T17:28:42.457Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 95,
+    "ram_usage": 98,
+    "disk_usage": 96,
+    "temperature": 95,
+    "network_latency": 900,
+    "active_connections": 48000,
+    "api_response_time": 2500,
+    "error_rate": 12,
+    "status": "Critical - High Crash Risk",
+    "health_score": 0,
+    "reasons": [
+      "CPU Usage = 95.0% (Critical)",
+      "RAM Usage = 98.0% (Critical)",
+      "Disk Usage = 96.0% (Critical)",
+      "Temperature = 95.0°C (Danger)",
+      "Active Connections = 48000.0 (Overload)",
+      "Network Latency = 900.0ms (Very Slow)",
+      "API Response = 2500.0ms (Slow Response)",
+      "Error Rate = 12.0% (High Error Rate)"
+    ],
+    "suggestions": [
+      "Scale up server instances (Add more CPU cores)",
+      "Check network routing and ISP health",
+      "Review recent code changes (Consider Rollback)",
+      "Check server cooling system and thermal throttling",
+      "Delete old logs and temp files",
+      "Implement or upgrade Load Balancer",
+      "Clear cache and free up memory",
+      "Optimize database queries or add indexing"
+    ],
+    "timestamp": "2026-07-18T17:23:26.868Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "disk_usage": 80,
+    "temperature": 78,
+    "network_latency": 350,
+    "active_connections": 30000,
+    "api_response_time": 800,
+    "error_rate": 2,
+    "status": "Warning - Moderate Crash Risk",
+    "health_score": 60,
+    "reasons": [
+      "CPU Usage = 82.0% (High)",
+      "RAM Usage = 85.0% (High)"
+    ],
+    "suggestions": [
+      "Restart background services to clear load",
+      "Kill idle or zombie processes"
+    ],
+    "timestamp": "2026-07-18T17:20:24.311Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 95,
+    "ram_usage": 98,
+    "disk_usage": 96,
+    "temperature": 95,
+    "network_latency": 900,
+    "active_connections": 48000,
+    "api_response_time": 2500,
+    "error_rate": 12,
+    "status": "Critical - High Crash Risk",
+    "risk_percentage": 99,
+    "reasons": [
+      "CPU Usage = 95.0% (Critical)",
+      "RAM Usage = 98.0% (Critical)",
+      "Disk Usage = 96.0% (Critical)",
+      "Temperature = 95.0°C (Danger)",
+      "Active Connections = 48000.0 (Overload)",
+      "Network Latency = 900.0ms (Very Slow)",
+      "API Response = 2500.0ms (Slow Response)",
+      "Error Rate = 12.0% (High Error Rate)"
+    ],
+    "suggestions": [
+      "Delete old logs and temp files",
+      "Check network routing and ISP health",
+      "Review recent code changes (Consider Rollback)",
+      "Implement or upgrade Load Balancer",
+      "Check server cooling system and thermal throttling",
+      "Optimize database queries or add indexing",
+      "Scale up server instances (Add more CPU cores)",
+      "Clear cache and free up memory"
+    ],
+    "timestamp": "2026-07-18T17:16:56.784Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 95,
+    "ram_usage": 98,
+    "disk_usage": 96,
+    "temperature": 95,
+    "network_latency": 900,
+    "active_connections": 48000,
+    "api_response_time": 2500,
+    "error_rate": 12,
+    "status": "Critical - High Crash Risk",
+    "reasons": [
+      "CPU Usage = 95.0% (Critical)",
+      "RAM Usage = 98.0% (Critical)",
+      "Disk Usage = 96.0% (Critical)",
+      "Temperature = 95.0°C (Danger)",
+      "Active Connections = 48000.0 (Overload)",
+      "Network Latency = 900.0ms (Very Slow)",
+      "API Response = 2500.0ms (Slow Response)",
+      "Error Rate = 12.0% (High Error Rate)"
+    ],
+    "suggestions": [
+      "Clear cache and free up memory",
+      "Optimize database queries or add indexing",
+      "Review recent code changes (Consider Rollback)",
+      "Scale up server instances (Add more CPU cores)",
+      "Delete old logs and temp files",
+      "Implement or upgrade Load Balancer",
+      "Check server cooling system and thermal throttling",
+      "Check network routing and ISP health"
+    ],
+    "timestamp": "2026-07-18T16:58:35.322Z"
+  },
+  {
+    "username": "divu",
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "disk_usage": 80,
+    "temperature": 78,
+    "network_latency": 350,
+    "active_connections": 30000,
+    "api_response_time": 800,
+    "error_rate": 2,
+    "status": "Warning - Moderate Crash Risk",
+    "reasons": [
+      "CPU Usage = 82.0% (High)",
+      "RAM Usage = 85.0% (High)"
+    ],
+    "suggestions": [
+      "Restart background services to clear load",
+      "Kill idle or zombie processes"
+    ],
+    "timestamp": "2026-07-18T16:53:37.590Z"
+  },
+  {
+    "username": "divu",
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "disk_usage": 80,
+    "temperature": 78,
+    "network_latency": 350,
+    "active_connections": 30000,
+    "api_response_time": 800,
+    "error_rate": 2,
+    "status": "Warning - Moderate Crash Risk",
+    "reasons": [
+      "CPU Usage = 82.0% (વધારે)",
+      "RAM Usage = 85.0% (વધારે)"
+    ],
+    "suggestions": [
+      "નકામી પ્રોસેસ બંધ કરો",
+      "Background Services Restart કરો"
+    ],
+    "timestamp": "2026-07-18T16:50:59.900Z"
+  },
+  {
+    "username": "divu",
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "disk_usage": 80,
+    "temperature": 78,
+    "network_latency": 350,
+    "active_connections": 30000,
+    "api_response_time": 800,
+    "error_rate": 2,
+    "status": "Warning - Moderate Crash Risk",
+    "timestamp": "2026-07-18T16:35:51.223Z"
+  },
+  {
+    "username": "divu",
+    "cpu_usage": 95,
+    "ram_usage": 98,
+    "temperature": 95,
+    "active_connections": 48000,
+    "status": "Critical - High Crash Risk",
+    "timestamp": "2026-07-11T12:05:35.788Z"
+  },
+  {
+    "username": "divu",
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "temperature": 78,
+    "active_connections": 30000,
+    "status": "Warning - Moderate Crash Risk",
+    "timestamp": "2026-07-11T12:05:32.757Z"
+  },
+  {
+    "username": "divu",
+    "cpu_usage": 45,
+    "ram_usage": 50,
+    "temperature": 60,
+    "active_connections": 5000,
+    "status": "Healthy - Server Safe",
+    "timestamp": "2026-07-11T12:05:27.005Z"
+  },
+  {
+    "username": "divu",
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "temperature": 78,
+    "active_connections": 30000,
+    "status": "Warning - Moderate Crash Risk",
+    "timestamp": "2026-07-11T12:00:31.868Z"
+  },
+  {
+    "username": "divu",
+    "cpu_usage": 95,
+    "ram_usage": 98,
+    "temperature": 95,
+    "active_connections": 48000,
+    "status": "Critical - High Crash Risk",
+    "timestamp": "2026-07-11T11:55:50.667Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 45,
+    "ram_usage": 55,
+    "temperature": 60,
+    "active_connections": 5000,
+    "status": "Healthy - Server Safe",
+    "timestamp": "2026-07-11T11:41:35.775Z"
+  },
+  {
+    "username": "om_",
+    "cpu_usage": 45,
+    "ram_usage": 55,
+    "temperature": 60,
+    "active_connections": 5000,
+    "status": "Healthy - Server Safe",
+    "timestamp": "2026-07-11T11:41:32.352Z"
+  },
+  {
+    "cpu_usage": 45,
+    "ram_usage": 55,
+    "temperature": 60,
+    "active_connections": 5000,
+    "status": "Healthy - Server Safe",
+    "timestamp": "2026-07-11T11:37:47.495Z"
+  },
+  {
+    "cpu_usage": 45,
+    "ram_usage": 55,
+    "temperature": 60,
+    "active_connections": 5000,
+    "status": "Healthy - Server Safe",
+    "timestamp": "2026-07-11T11:30:45.173Z"
+  },
+  {
+    "cpu_usage": 45,
+    "ram_usage": 55,
+    "temperature": 60,
+    "active_connections": 5000,
+    "status": "Healthy - Server Safe",
+    "timestamp": "2026-07-11T11:26:48.838Z"
+  },
+  {
+    "cpu_usage": 45,
+    "ram_usage": 55,
+    "temperature": 60,
+    "active_connections": 5000,
+    "status": "Healthy - Server Safe",
+    "timestamp": "2026-07-11T11:16:05.125Z"
+  },
+  {
+    "cpu_usage": 45,
+    "ram_usage": 55,
+    "temperature": 60,
+    "active_connections": 5000,
+    "status": "Healthy - Server Safe",
+    "timestamp": "2026-07-11T10:54:24.791Z"
+  },
+  {
+    "cpu_usage": 45,
+    "ram_usage": 55,
+    "temperature": 60,
+    "active_connections": 5000,
+    "status": "Healthy - Server Safe",
+    "timestamp": "2026-07-11T10:52:44.736Z"
+  },
+  {
+    "cpu_usage": 95,
+    "ram_usage": 98,
+    "temperature": 95,
+    "active_connections": 48000,
+    "status": "Critical - High Crash Risk",
+    "timestamp": "2026-07-11T10:39:03.760Z"
+  },
+  {
+    "cpu_usage": 82,
+    "ram_usage": 85,
+    "temperature": 78,
+    "active_connections": 30000,
+    "status": "Warning - Moderate Crash Risk",
+    "timestamp": "2026-07-11T10:38:45.310Z"
+  },
+  {
+    "cpu_usage": 95,
+    "ram_usage": 98,
+    "temperature": 95,
+    "active_connections": 48000,
+    "status": "Critical - High Crash Risk",
+    "timestamp": "2026-07-11T10:38:15.329Z"
+  }
+]
